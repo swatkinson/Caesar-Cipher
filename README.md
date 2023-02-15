@@ -6,6 +6,7 @@
 
 A Caesar cipher is a simple encryption technique that involves shifting each letter in a message a certain number of positions down the alphabet. For example, if you shift each letter in the message by three positions, the letter "A" would be replaced by the letter "D", "B" would become "E", and so on.
 
+---
 Here's an example of a Caesar cipher using a shift of 3:
 
 Original message: "HELLO WORLD"
@@ -15,6 +16,7 @@ In this example, each letter in the original message has been shifted three posi
 
 To decrypt the message, you would simply shift each letter in the opposite direction. If you shift each letter in the encrypted message by three positions up the alphabet, you would recover the original message.
 
+---
 
 In my program, the inputted string is encoded up the alphabet by the inputted number, while keeping capital letters capital, lowercase letters lowercase, and symbols as they are.
 
@@ -37,10 +39,10 @@ Weight downs:
 Whichever string has the highest weight at the end is the decyphered code! With the integration of n-grams, it even happens to work in a lot of cases with other latin-based languages!)
 
 
+---
 
-
-**An example output from my Java program:**
-`Do you want to encode (e), decode (d), bruteforce (b) or quit (q)?
+## An example output from my Java program:
+```Do you want to encode (e), decode (d), bruteforce (b) or quit (q)?
 e
 Input the phrase you want to encode, followed by the offset you want to offset it by
 Phrase to encode: Hello world! This is a sample of the ceasar cipher program
@@ -88,5 +90,5 @@ Amount to shift by: 3
 Decoded message: Hello world! This is a sample of the ceasar cipher program
 
 Do you want to encode (e), decode (d), bruteforce (b) or quit (q)?
-q
+q```
 
