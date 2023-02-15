@@ -45,6 +45,7 @@ Whichever string has the highest weight at the end is the decyphered code! With 
 ```
 Do you want to encode (e), decode (d), bruteforce (b) or quit (q)?
 e
+
 Input the phrase you want to encode, followed by the offset you want to offset it by
 Phrase to encode: Hello world! This is a sample of the ceasar cipher program
 Amount to shift by: 3
@@ -85,6 +86,7 @@ the best combination is Hello world! This is a sample of the ceasar cipher progr
 
 Do you want to encode (e), decode (d), bruteforce (b) or quit (q)?
 d
+
 Input the phrase you want to decode, followed by the offset you want to offset it by
 Encoded phrase: Khoor zruog! Wklv lv d vdpsoh ri wkh fhdvdu flskhu surjudp
 Amount to shift by: 3
