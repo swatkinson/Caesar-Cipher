@@ -1,5 +1,5 @@
 # Caesar-Cipher
-A program that can encode, decode, and bruteforce any string or encoded ceasar cipher string
+## A program that can encode, decode, and bruteforce any string or encoded ceasar cipher string
 
 
 
@@ -40,7 +40,7 @@ Whichever string has the highest weight at the end is the decyphered code! With 
 
 
 **An example output from my Java program:**
-*Do you want to encode (e), decode (d), bruteforce (b) or quit (q)?
+`Do you want to encode (e), decode (d), bruteforce (b) or quit (q)?
 e
 Input the phrase you want to encode, followed by the offset you want to offset it by
 Phrase to encode: Hello world! This is a sample of the ceasar cipher program
@@ -88,5 +88,5 @@ Amount to shift by: 3
 Decoded message: Hello world! This is a sample of the ceasar cipher program
 
 Do you want to encode (e), decode (d), bruteforce (b) or quit (q)?
-q*
+q
 
